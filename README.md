@@ -46,7 +46,7 @@ fc-cache -fv
 for install in your system copy my .config file and it's all. :)))
 
 ```zsh
-git clone https://github.com/danxnya/dots.g}it
+git clone https://github.com/danxnya/dots.git
 cd dots
 cp -r ./configs/* ~/.config/
 ```
