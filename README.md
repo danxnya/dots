@@ -14,7 +14,7 @@ you need install [Hyprland](https://hyprland.org/)
   ```
 install tools.
   ```zsh
-  yay -S waybar-hyprland rofi kitty swaybg swaylock-fancy-git swayidle pamixer light brillo pavucontrol fish visual-studio-code-bin
+  yay -S waybar-hyprland rofi kitty swaybg swaylock-fancy-git swayidle pamixer light brillo pavucontrol fish visual-studio-code-bin lsd bat
   ```
 if you need more tools, only add in this line.
 
