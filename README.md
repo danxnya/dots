@@ -1,8 +1,7 @@
 # dots
 this my dotfiles with hyprland ^^
 
-
-![](https://raw.githubusercontent.com/danxnya/dots/screens/hypr1
+https://github.com/danxnya/dots/blob/main/screens/hypr1.png?raw=true
 
 this is my theme for arch linux.
 ### first install yay or your favorite helper
