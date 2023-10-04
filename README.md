@@ -1,18 +1,16 @@
 # dots
-
 <div align="center">
-    <h1>this my dotfiles with hyprland for arch^^</h1>
+    <h1>This is my dotfiles with hyprland for arch^^</h1>
 </div>
 
 <div align="center">
-
-screens/hypr1.png
-
+    <img src="https://raw.githubusercontent.com/danxnya/dots/main/screens/hypr1.png" alt="Hyprland Image">
 </div>
 
 <div align="center">
     <h1>Installations 💫</h1>
 </div>
+
 
 ### first install yay or your favorite helper
 ```zsh
