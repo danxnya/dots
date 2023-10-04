@@ -1,10 +1,17 @@
 # dots
-this my dotfiles with hyprland ^^
+<div align="center">
+    <h1>This is my dotfiles with hyprland for arch^^</h1>
+</div>
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/danxnya/dots/main/screens/hypr1.png" alt="Hyprland Image">
+</div>
+
+<div align="center">
+    <h1>Installations 💫</h1>
+</div>
 
 
-![](https://raw.githubusercontent.com/danxnya/dots/screens/hypr1
-
-this is my theme for arch linux.
 ### first install yay or your favorite helper
 ```zsh
 pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
