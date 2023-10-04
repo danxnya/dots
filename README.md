@@ -1,5 +1,18 @@
 # dots
-this my dotfiles with hyprland ^^
+
+<div align="center">
+    <h1>this my dotfiles with hyprland ^^</h1>
+</div>
+
+<div align="center">
+
+![](https://raw.githubusercontent.com/danxnya/dots/screens/hypr1)
+
+</div>
+
+<div align="center">
+    <h1>Installations 💫</h1>
+</div>
 
 https://github.com/danxnya/dots/blob/main/screens/hypr1.png?raw=true
 
