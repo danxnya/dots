@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/danxnya/dots/screens/hypr1.png" alt="Hyprland Image">
+screens/hypr1.png
 
 </div>
 
