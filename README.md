@@ -6,7 +6,7 @@
 
 <div align="center">
 
-![](https://raw.githubusercontent.com/danxnya/dots/screens/hypr1)
+<img src="https://raw.githubusercontent.com/danxnya/dots/screens/hypr1.png" alt="Hyprland Image">
 
 </div>
 
