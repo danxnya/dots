@@ -1,12 +1,12 @@
 # dots
 this my dotfiles with hyprland ^^
 
-this is my theme for arch linux
-###first install yay or your helper favorite
+this is my theme for arch linux.
+### first install yay or your helper favorite
 ```zsh
 pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 ```
-##dependencies
+## dependencies
 
 you need install [Hyprland](https://hyprland.org/)
   ```zsh
@@ -14,7 +14,7 @@ you need install [Hyprland](https://hyprland.org/)
   ```
 install tools.
   ```zsh
-  yay -S waybar-hyprland rofi dunst kitty swaybg swaylock-fancy-git swayidle pamixer light brillo pavucontrol fish visual-studio-code-bin
+  yay -S waybar-hyprland rofi kitty swaybg swaylock-fancy-git swayidle pamixer light brillo pavucontrol fish visual-studio-code-bin
   ```
 if you need more tools, only add in this line.
 
@@ -40,3 +40,12 @@ Then run this command for your system to detect the newly installed fonts.
 ```
 fc-cache -fv
 ```
+for install in your system copy my .config file and it's all. :)))
+
+```zsh
+git clone https://github.com/danxnya/dots.g}it
+cd dots
+cp -r ./configs/* ~/.config/
+```
+
+
