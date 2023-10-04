@@ -1,0 +1,5 @@
+2023-10-03 23:59:13.761 [info] update#setState idle
+2023-10-03 23:59:27.659 [info] Extension host with pid 42291 exited with code: 0, signal: unknown.
+2023-10-03 23:59:43.763 [info] update#setState checking for updates
+2023-10-03 23:59:43.866 [info] update#setState idle
+2023-10-04 00:03:47.117 [info] Extension host with pid 42405 exited with code: 0, signal: unknown.

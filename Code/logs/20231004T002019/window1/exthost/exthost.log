@@ -1,0 +1,13 @@
+2023-10-04 00:20:21.624 [info] Extension host with pid 56352 started
+2023-10-04 00:20:21.624 [info] Skipping acquiring lock for /home/danna/.config/Code/User/workspaceStorage/7d66f3413dc5608a745d266f2ca9b95c.
+2023-10-04 00:20:21.814 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-04 00:20:22.021 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-04 00:20:22.231 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-04 00:20:22.263 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-04 00:20:22.373 [info] Eager extensions activated
+2023-10-04 00:20:22.449 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-04 00:20:22.451 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-04 00:20:22.828 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-10-04 00:20:22.959 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-10-04 00:20:36.038 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-04 00:20:41.053 [info] Extension host with pid 56352 exiting with code 0
