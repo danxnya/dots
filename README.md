@@ -2,7 +2,7 @@
 this my dotfiles with hyprland ^^
 
 this is my theme for arch linux.
-### first install yay or your helper favorite
+### first install yay or your favorite helper
 ```zsh
 pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 ```
