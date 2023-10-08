@@ -7,6 +7,6 @@ if status is-interactive
 	alias kya="yay -R"
 	alias ls="lsd"
 	alias cat="bat"
-	
+	alias lss="ls"	
 end
 fish_add_path /home/danna/.spicetify

@@ -1,0 +1,7 @@
+audio.allow_downgrade=false
+audio.sync_bitrate_enumeration=3
+audio.play_bitrate_non_metered_migrated=true
+audio.play_bitrate_enumeration=3
+audio.play_bitrate_non_metered_enumeration=3
+audio.normalize_v2=false
+app.browser.zoom-level=-200

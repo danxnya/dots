@@ -5,7 +5,7 @@
     "margin-left": 5,
     "margin-bottom": 0,
     "margin-right": 5,
-    "spacing": 5, // Gaps between modules (4px)
+    "spacing": 1, // Gaps between modules (4px)
     "modules-left": ["tray", "custom/playerctl", "custom/playerlabel"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["backlight", "pulseaudio", "network", "battery", "clock", "custom/power-menu"],
