@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/danxnya/dots/main/screens/hypr1.png" alt="Hyprland Image">
+    <img src="https://raw.githubusercontent.com/danxnya/dots/main/screens/gif.gif.gif" alt="Hyprland Image">
 </div>
 
 <div align="center">
