@@ -1,13 +1,13 @@
 * {
   /* `otf-font-awesome` is required to be installed for icons */
-  font-family: "Maple Mono SC NF";
+  font-family: "Maple Mono SC NF", "otf-font-awesome";
   font-size: 14px;
 }
 
-window#waybar {
+ window#waybar {
   /* background-color: rgba(26, 27, 38, 0.5); */
   background-color: #11111B;
-  color: #ffffff;
+  color: #cdd6f4;
   transition-property: background-color;
   transition-duration: 0.5s;
   border-top: 8px transparent;
@@ -16,9 +16,9 @@ window#waybar {
   margin: 16px 16px;
 }
 
-window#waybar.hidden {
+/* window#waybar.hidden {
   opacity: 0.2;
-}
+} */
 
 #workspaces {
   background: #0c0e0f;
@@ -31,7 +31,7 @@ font-style: normal;
 }
 #workspaces button {
   padding: 0px 4px;
-  margin: 0px 4px;
+  margin: 0px 3px;
   border-radius: 16px;
   color: #2f354a;
   background-color: #2f354a;
@@ -62,12 +62,9 @@ background-size: 400% 400%;
   color: #64727d;
 }
 
+
 #clock,
 #battery,
-#cpu,
-#memory,
-#disk,
-#temperature,
 #backlight,
 #network,
 #pulseaudio,
@@ -77,26 +74,15 @@ background-size: 400% 400%;
 #idle_inhibitor,
 #mpd,
 #bluetooth,
-#custom-hyprPicker,
-#custom-power-menu,
-#custom-spotify,
-#custom-weather,
-#custom-weather.severe,
-#custom-weather.sunnyDay,
-#custom-weather.clearNight,
-#custom-weather.cloudyFoggyDay,
-#custom-weather.cloudyFoggyNight,
-#custom-weather.rainyDay,
-#custom-weather.rainyNight,
-#custom-weather.showyIcyDay,
-#custom-weather.snowyIcyNight,
-#custom-weather.default {
-  padding: 0 10px;
+#custom-power-menu {
+  padding: 0px 8px;
   color: #cdd6f4;
-  /* color: #bf616a; */
-  border-radius: 9.5px;
-  background-color: #11111B;
+  border-radius: 9px;
+  background-color: #1e2230;
+
+  margin: 4px 2px;
 }
+
 
 #window,
 #workspaces {
@@ -116,7 +102,7 @@ background-size: 400% 400%;
 #custom-power-menu {
   border-radius: 9.5px;
   border-radius: 7.5px;
-  padding: 0 5px;
+  padding: 0 2px;
 }
 
 #custom-launcher {
@@ -125,36 +111,6 @@ background-size: 400% 400%;
   padding: 0 3px;
 }
 
-#custom-weather.severe {
-  color: #eb937d;
-}
-
-#custom-weather.sunnyDay {
-  color: #c2ca76;
-}
-
-#custom-weather.clearNight {
-  color: #cad3f5;
-}
-
-#custom-weather.cloudyFoggyDay,
-#custom-weather.cloudyFoggyNight {
-  color: #c2ddda;
-}
-
-#custom-weather.rainyDay,
-#custom-weather.rainyNight {
-  color: #5aaca5;
-}
-
-#custom-weather.showyIcyDay,
-#custom-weather.snowyIcyNight {
-  color: #d6e7e5;
-}
-
-#custom-weather.default {
-  color: #dbd9d8;
-}
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
@@ -168,11 +124,18 @@ background-size: 400% 400%;
 
 #pulseaudio {
   color: #cdd6f4;
+  padding-right: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1px
 }
 
-#backlight {
-  /* color: #EBCB8B; */
+#backlight{
   color: #cdd6f4;
+  padding-right: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: -1px
 }
 
 #clock {
@@ -182,6 +145,11 @@ background-size: 400% 400%;
 
 #battery {
   color: #cdd6f4;
+
+  padding-right: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1px
   /* background-color: #90b1b1; */
 }
 
@@ -226,10 +194,20 @@ label:focus {
 
 #network {
   color: #cdd6f4;
+
+  padding-right: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: -1px
 }
 
 #network.disconnected {
   color: #cdd6f4;
+
+  padding-right: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: -1px
 }
 
 #custom-media {
@@ -246,16 +224,9 @@ label:focus {
   background-color: #ffa000;
 }
 
-#temperature {
-  background-color: #f0932b;
-}
-
-#temperature.critical {
-  background-color: #eb4d4b;
-}
-
 #tray > .passive {
   -gtk-icon-effect: dim;
+  
 }
 
 #tray > .needs-attention {
@@ -272,21 +243,6 @@ label:focus {
   color: #2d3436;
 }
 
-#mpd {
-  color: #2a5c45;
-}
-
-#mpd.disconnected {
-  color: #f53c3c;
-}
-
-#mpd.stopped {
-  color: #90b1b1;
-}
-
-#mpd.paused {
-  color: #51a37a;
-}
 
 #language {
   background: #00b093;
@@ -332,12 +288,6 @@ label:focus {
   padding: 0 5px;
 }
 
-#custom-spotify {
-  padding: 0 10px;
-  margin: 0 4px;
-  /* background-color: #1db954; */
-  color: #abb2bf;
-}
 
 #keyboard-state > label.locked {
   background: rgba(0, 0, 0, 0.2);

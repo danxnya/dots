@@ -1,5 +1,5 @@
 {
-    "height": 10, // Waybar height (to be removed for auto height)
+    "height": 34, // Waybar height (to be removed for auto height)
     "layer": "top", // Waybar at top layer
     "margin-top": 3,
     "margin-left": 5,
@@ -8,7 +8,7 @@
     "spacing": 1, // Gaps between modules (4px)
     "modules-left": ["tray", "custom/playerctl", "custom/playerlabel"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["backlight", "pulseaudio", "network", "battery", "clock", "custom/power-menu"],
+    "modules-right": ["clock", "backlight", "pulseaudio", "network", "battery", "custom/power-menu"],
     "hyprland/workspaces": {
         "active-only": false,
         "all-outputs": true,
@@ -62,13 +62,6 @@
         },
       },
       
-
-    "cpu": {
-      "interval": 10,
-      "format": " {}%",
-      "max-length": 10,
-      "on-click": "",
-    },
     "memory": {
         "interval": 30,
         "format": " {}%",
@@ -129,21 +122,7 @@
       "format-full": "  {capacity}%",
       "format-icons": [" ", " ", " ", " ", " "],
     },
-    "custom/weather": {
-      "exec": "python3 ~/.config/waybar/scripts/weather.py",
-      "restart-interval": 300,
-      "return-type": "json",
-      "on-click": "xdg-open https://weather.com/en-IN/weather/today/l/a319796a4173829988d68c4e3a5f90c1b6832667ea7aaa201757a1c887ec667a"
-    },   
 
-   "custom/spotify": {
-    "exec": "python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
-    "format": "{}  ",
-    "return-type": "json",
-    "on-click": "playerctl play-pause",
-    "on-double-click-right": "playerctl next",
-    "on-scroll-down": "playerctl previous",
-    },
     "custom/power-menu": {
         "format": " <span color='#cdd6f4'>⏻ </span>",
         "on-click": "bash ~/.config/waybar/scripts/power-menu/powermenu.sh",
